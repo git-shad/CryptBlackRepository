@@ -1,2 +1,0 @@
-tool.DatabaseAutorun
-tool.startup
