@@ -2,13 +2,23 @@
 
 #### Discerption 
 
-🕵🏻‍♀️ the program that can manage your file and program. in option, they have 4 options lock and unlock, backup, and autorun. lock and unlock or encrypt and decrypt your file, the backup option can save your file for future need, and the autorun option can set any program as run when Windows first opens. hope you like my program this is for educational purposes.
+🕵🏻‍♀️ The program can manage your files and programs. It offers four options: lock and unlock, backup, and autorun. The lock and unlock feature encrypts and decrypts your files. The backup option saves your files for future use, and the autorun option sets any program to run when Windows first opens. I hope you like my program; it is designed for educational purposes.
 
 
 
-for more information about how to use this,
+#### Support 
 
-watch this video : [https://youtu.be/82yDauxp-48](https://youtu.be/82yDauxp-48)
+java 11+ or latest
 
-than click this to download: [Download Zip](https://github.com/git-shad/CryptBlackRepository/archive/refs/heads/main.zip)
+
+
+#### to download 
+
+click to [Download Zip](https://github.com/git-shad/CryptBlackRepository/archive/refs/heads/main.zip)
+
+or use git to download
+
+```bash
+git clone https://github.com/git-shad/CryptBlackRepository.git
+```
 

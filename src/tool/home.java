@@ -13,10 +13,27 @@ public class home extends javax.swing.JFrame {
     static String outText = "";//
     protected ExecutorService executor = Executors.newFixedThreadPool(4);
     
+    private void checkOS(){
+        String os = System.getProperty("os.name").toLowerCase();
+
+        if (os.contains("win")) {
+            // Windows
+            intoTerminal("Running windows, all feture");
+        } else if (os.contains("nix") || os.contains("nux") || os.contains("mac")) {
+            // Linux, Unix, or macOS
+            intoTerminal("not supported feture autorun");
+        } else {
+            // Other OS
+            intoTerminal("not supported feture autorun");
+        }
+    }
+    
     public home() {
         panel02 = new backupsPanel(this);
         panel03 = new autorunPanel(this);
         initComponents();
+        
+        checkOS();
         
         (m = new frameExtention(this)).setVisible(false);
         feedback.setVisible(false);

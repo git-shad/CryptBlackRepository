@@ -1,0 +1,2 @@
+tool.reg
+tool.autorunPanel
